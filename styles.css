@@ -1,0 +1,46 @@
+
+    body{
+        background-color: hsl(217, 54%, 11%);
+    }
+    div{
+        background-color: hsl(216, 50%, 16%) ;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        display: grid;
+        margin-left: 35%;
+        margin-right: 35%;
+        margin-top: 35%;
+        margin-bottom: 35%;
+        /*display: block;
+        margin-left: 35%;
+        margin-right: 35%;
+        text-align: center;
+        min-width: 370px;
+        width: 50%;
+        align-items: center;
+        margin: auto;*/
+        grid-template-columns: 1fr;
+        
+    }
+    img{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        height: 50%;
+    }
+    div div{
+        background-color: blueviolet;
+        margin: 20%;
+
+    }
+    .attribution { 
+        font-size: 11px; text-align: center; 
+    }
+
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+
+    
