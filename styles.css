@@ -1,39 +1,100 @@
-
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
     body{
         background-color: hsl(217, 54%, 11%);
-    }
-    div{
-        background-color: hsl(216, 50%, 16%) ;
+        background-size: cover;
+        font-family: 'Outfit';
+        line-height: 2rem;
         display: flex;
         justify-content: center;
-        flex-direction: column;
-        display: grid;
-        margin-left: 35%;
-        margin-right: 35%;
-        margin-top: 35%;
-        margin-bottom: 35%;
-        /*display: block;
-        margin-left: 35%;
-        margin-right: 35%;
-        text-align: center;
-        min-width: 370px;
-        width: 50%;
+        height: 100vh;
+        justify-content: center;
         align-items: center;
-        margin: auto;*/
-        grid-template-columns: 1fr;
+        margin: 0;
+        
+
+    }
+    div.card{
+        background-color: hsl(216, 50%, 16%) ;
+        
+        
+        border-radius: 12px;
+        max-width: 610px;
+        
+        
+        padding: 20px;
         
     }
-    img{
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        height: 50%;
+    div.content{
+        flex: 1;
     }
-    div div{
-        background-color: blueviolet;
-        margin: 20%;
 
+    img.nft{
+     max-width: 100%;
+     max-height: 100%;
+     object-fit: cover;
+     border-radius: 12px;   
+    }
+
+    h1{
+        color: white;
+        font-size: 20px;
+        
+    }
+
+    #description{
+        font-size: 18px;
+        color: hsl(215, 51%, 70%);
+        font-weight: 200;
+    }
+
+    .details > img,
+    .details > span{
+        display: inline-block;
+    }
+
+
+
+    #price{
+        color: hsl(178, 100%, 50%);
+        font-size: 18px;
+        
+    }
+    #time{
+        
+        color: hsl(215, 51%, 70%);
+        font-size: 18px;
+    }
+    .ethereum{
+        width: 18px;
+        height: auto;
+    }
+    .clock{
+        width: 18px;
+        height: auto;
+    }
+
+    .details--price, .details--time{
+        width: 49%;
+        display: inline-block;
+    }
+    .details--time{
+        text-align: right;
+    }
+    .ethereum, #price, .clock, #time{
+        vertical-align: middle;
+    }
+    hr{
+        margin-top: 1rem;
+    }
+
+    .user > img{
+        width: 50px;
+        height: 50px;
+        padding: 1px white;
+        border-radius: 30px;
+        background-color: white;
+        
+        
     }
     .attribution { 
         font-size: 11px; text-align: center; 
