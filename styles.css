@@ -1,5 +1,6 @@
     @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;500&display=swap');
+
     body{
         background-color: hsl(217, 54%, 11%);
         background-size: cover;
@@ -8,12 +9,12 @@
         display: flex;
         justify-content: center;
         height: 100vh;
-        justify-content: center;
         align-items: center;
         margin: 0;
         
 
     }
+
     div.card{
         background-color: hsl(216, 50%, 16%) ;
         
@@ -31,6 +32,7 @@
         
         
     }
+
     div.content{
         flex: 1;
     }
@@ -60,21 +62,23 @@
     }
 
 
-
     #price{
         color: hsl(178, 100%, 50%);
         font-size: 18px;
         
     }
+    
     #time{
         
         color: hsl(215, 51%, 70%);
         font-size: 18px;
     }
+
     .ethereum{
         width: 18px;
         height: auto;
     }
+
     .clock{
         width: 18px;
         height: auto;
@@ -84,12 +88,15 @@
         width: 49%;
         display: inline-block;
     }
+
     .details--time{
         text-align: right;
     }
+
     .ethereum, #price, .clock, #time{
         vertical-align: middle;
     }
+
     hr{
         margin-top: 1rem;
         margin-bottom: 1rem;
@@ -122,8 +129,13 @@
         vertical-align: middle;
         
     }
+
     .attribution { 
-        font-size: 11px; text-align: center; 
+        font-size: 11px; text-align: center;
+        color: hsl(0, 0%, 100%);
+        position: absolute;
+        top: 90%;
+         
     }
 
     .attribution a { 
